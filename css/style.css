@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+@import url(font.css);
+@import url(reset.css);
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    line-height: 160%;
+    color: #424551;
+}
+
+[class*="__container"] {
+    max-width: 810px;
+    margin: 0 auto;
+}
+.section {
+    margin-top: 20px;
+    margin-bottom: 12px;
+}
+.section img {
+    width: 16px;
+    height: 16px;
+}
+.section a {
+    color: #FF3F3A;   
+}
+.main-content__container span {
+    color: #787A80;
+}
+.icon {
+    width: 16px;
+    height: 16px;
+}
+h1 {
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 130%;
+    color: #1E212C;
+    margin-bottom: 26px;
+}
+.main__image {
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+.text-bold {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    color: #1E212C;
+    margin-bottom: 24px;
+}
+.text-regular {
+    margin-bottom: 48px;
+}
+.text-regular-first {
+    margin-bottom: 24px;
+}
+.quotation {
+    margin-bottom: 48px;
+}
+.quotation p {
+    margin-left: 58px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    color: #1E212C;
+}
+.list {
+    margin-bottom: 24px;
+}
+.list p {
+    margin-bottom: 24px;
+}
+.list li {
+    background: url("../img/check.svg") 0px 7px no-repeat;
+    padding-left: 30px;
+    margin-bottom: 4px;
+}
+.text-last {
+    margin-bottom: 60px;
+}
+
+/*------------- Background features------------- */
+
+.background-feature {
+    background-color:#2d2d2e;
+}
+.background-feature-title {
+    height: 600px;
+    text-align: center;
+    padding-top: 300px;
+    font-size: 64px;
+    color:azure;
+    background: url('../img/mountaines_1.jpeg') 50% /cover no-repeat;
+}
+
+.dovbusha-rocks__background {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    height: 600px;
+    background: url('../img/dovbush_1.jpeg') 20px 20px / 200px no-repeat, url('../img/stegka-dovbusha_2.jpg') top right / cover no-repeat;
+}
+.dovbusha-rocks__text {
+    background-image: linear-gradient(to bottom, #a8a8a8a6 0%,rgba(0,0,0,0) 70%);
+}
+.dovbusha-rocks__text p {
+    color: azure;
+    margin-bottom: 10px;
+}
+
+.synevyr-block__text {
+    padding: 30px 90px;
+    height: 450px;
+    overflow: scroll;
+    text-align: justify;
+    font-size: 32px;
+    line-height: 1.5;
+    color: whitesmoke;
+    background: url('../img/synevir_1.jpg') 0 50% no-repeat fixed;
+}
+.footer {
+    padding: 40px;
+    text-align: center;
+    background-color: #2d2d2e;
+    color: azure;
+}
+.footer a {
+    color:cadetblue;
+}
+
